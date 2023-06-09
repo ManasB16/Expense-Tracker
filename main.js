@@ -31,7 +31,7 @@ function onsubmit(e){
         userlist.removeChild(e.target.parentElement)
     }
     edit.onclick = (e) => {
-        localStorage.removeItem(obj.name)
+        localStorage.removeItem(obj.amount)
         userlist.removeChild(e.target.parentElement)
         document.querySelector('#amount').value = obj.amount
         document.querySelector('#description').value = obj.description
